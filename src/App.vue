@@ -14,13 +14,24 @@ const testData: ColumnProps[] = [
     id: 1,
     title: "test1的专栏",
     description: "test1专栏",
-    avatar: "http://xxx.com",
+    avatar: require("@/assets/logo.png"),
   },
   {
     id: 2,
     title: "test2的专栏",
     description: "test2专栏",
-    avatar: "http://xxx.com",
+    avatar: require("@/assets/logo.png"),
+  },
+  {
+    id: 3,
+    title: "test3的专栏",
+    description: "test3专栏",
+  },
+  {
+    id: 4,
+    title: "test4的专栏",
+    description: "test4专栏",
+    avatar: require("@/assets/logo.png"),
   },
 ];
 
@@ -38,12 +49,4 @@ export default defineComponent({
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
